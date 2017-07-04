@@ -46,7 +46,7 @@ rule buyNumsPoint
     salience 97  
     lock-on-active true  
     when  
-        $pointDomain : PointDomain(buyNums >= 5)  
+        $pointDomain : PointDomain(buyNums >= 5) 
     then  
         $pointDomain.setPoint($pointDomain.getPoint()+$pointDomain.getBuyNums()/5 * 50);  
         $pointDomain.recordPointLog($pointDomain.getUserName(),"buyNumsPoint");  

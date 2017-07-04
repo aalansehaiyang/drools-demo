@@ -89,4 +89,6 @@ BuyNums=10
 11. auto-focus:它的作用是用来在已设置了agenda-group的规则上设置该规则是否可以自动独取Focus，如果该属性设置为true，那么在引擎执行时，就不需要显示的为某个Agenda Group设置Focus否则需要。
 12. ruleflow-group: 在使用规则流的时候要用到ruleflow-group属性，该属性的值为一个字符串，作用是用来将规则划分为一个个的组，然后在规则流当中通过使用ruleflow-group 属性的值，从而使用对应的规则
 
+###### 参考资料：
 
+* https://wenku.baidu.com/view/d3c61babdd3383c4bb4cd2af.html
