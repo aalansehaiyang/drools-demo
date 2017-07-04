@@ -21,6 +21,6 @@ rule subBackMondyPoint
     when  
         $pointDomain : PointDomain(backMondy >= 100)  
     then  
-        $pointDomain.setPoint($pointDomain.getPoint()-10);  
+        $pointDomain.setPoint($pointDomain.getPoint()-100);  
         $pointDomain.recordPointLog($pointDomain.getUserName(),"subBackMondyPoint");  
 end  
